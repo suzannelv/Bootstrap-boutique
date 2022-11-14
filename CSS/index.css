@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/bg_fruit.png);
+}
+.navbar{
+    background-color: #eef3f2 !important;
+}
+
+.icon .bi-cart-fill span{
+    padding:0.1em 0.5em; 
+    font-size:0.5em;
+}
+.icon .bi::before{
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+.banner .btn1{
+    background-color: #a0cb23; ;
+}
+.banner{
+    background-image: url(../img/banner.jpg);
+background-size: cover;
+    width: 100%;
+    min-height: 800px;
+}
+
+.banner .container{
+    padding-top:300px;
+    padding-left:-100px;
+ 
+}
+.banner .subtitle{
+    color: #a0cb23;
+}
+.banner .btn{
+    border-radius: 0%;
+    width: 220px;
+}
+
+.wrapper .col{
+    min-height: 300px;
+    width: 300px;
+    padding-left:20px;
+    padding-top:100px;
+    margin:20px;
+ 
+}
+.wrapper .row .col:first-child{
+    background-color: #95dcd6;
+}
+.wrapper .row .col:nth-child(2){
+    background-color: #f58313;
+}
+.wrapper .row .col:last-child{
+    background-color:  #a0cb23;
+}
+.product .fs-4{
+    color:#a0cb23;
+}
+
+.product .col{
+    background-color: #f6fafb;
+    margin-bottom: 10px;
+    padding:10px;
+}
+.product .col .price{
+    color: #a0cb23;
+}
+.product .hot{
+    border-radius: 0%;
+}
+
+.product .heart{ 
+    width: 35px;
+    height: 35px;
+    top:15px;
+    right:15px;
+    background-color: white;
+
+   
+}
+.product .bro{
+    margin-top:-55px;
+}
+
+.product .miel{
+    margin-top: 120px;
+}
+.product .heart i:active{
+    background-color: #a0cb23;
+    color: white;
+}
+.product .ajout{
+    border-radius: 0%;
+    border:none;
+}
+
+.product .container .ajout:hover{
+   background-color: #a0cb23;
+   border-radius: 0%;
+}
+.footer{
+    background-color: #a0cb23;
+    min-height: 222px;
+}
+.footer .sold{
+    color:yellow;
+}
+.footer .pannier{
+    max-height: 222px;
+    border-top-left-radius: 300px;
+    box-shadow: -25px 0 rgb(211, 244, 60);
+}
