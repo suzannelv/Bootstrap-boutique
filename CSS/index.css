@@ -12,11 +12,12 @@ body{
     padding:0.1em 0.5em; 
     font-size:0.5em;
 }
-.icon .bi::before{
+/* .icon .bi::before{
+    content:
     background-color: white;
     border-radius: 50%;
     padding: 0.5em;
-}
+} */
 .banner .btn1{
     background-color: #a0cb23; ;
 }
@@ -40,33 +41,33 @@ background-size: cover;
     width: 220px;
 }
 
-.wrapper .col{
+.wrapper .profit{
     min-height: 300px;
-    width: 300px;
+    /* width: 300px;
     padding-left:20px;
     padding-top:100px;
-    margin:20px;
+    margin:20px; */
  
 }
-.wrapper .row .col:first-child{
+.wrapper .row .profit:first-child{
     background-color: #95dcd6;
 }
-.wrapper .row .col:nth-child(2){
+.wrapper .row .profit:nth-child(2){
     background-color: #f58313;
 }
-.wrapper .row .col:last-child{
+.wrapper .row .profit:last-child{
     background-color:  #a0cb23;
 }
 .product .fs-4{
     color:#a0cb23;
 }
 
-.product .col{
+.product .profit{
     background-color: #f6fafb;
     margin-bottom: 10px;
     padding:10px;
 }
-.product .col .price{
+.product .profit .price{
     color: #a0cb23;
 }
 .product .hot{
